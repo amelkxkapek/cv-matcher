@@ -1,5 +1,4 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import natural from 'natural';
 import { TfIdf } from 'natural';
 
 type MatchResult = {
